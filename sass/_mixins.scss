@@ -1,0 +1,18 @@
+@mixin felx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin medium-nezet {
+    @media (min-width: 768px) {
+    
+    }
+}
+@mixin desktop-nezet {
+    @media (min-width: 768px) {
+    
+    }
+}
+
+

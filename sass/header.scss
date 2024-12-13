@@ -1,0 +1,39 @@
+#nav-checkbox {
+    display: none;
+}
+
+header {
+        width: 100vw;
+        height: 50vh;
+        border: 2px solid rgb(67, 88, 67);
+    nav {
+        label {
+            display: inline-block;
+            position: relative;
+            width: 25px;
+            height: 25px;
+            cursor: pointer; 
+            border: 2px solid red;
+
+            span {
+                background-color: grey;
+                height: 3px;
+                position: absolute;
+                width: 25px;
+                border-radius: 2px;
+            }
+        }
+    }              
+}
+
+.line-top {
+    top: 0;
+}
+
+.line-middle {
+    top: 10px
+}
+
+.line-bottom {
+    top: 20px;
+}

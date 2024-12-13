@@ -1,37 +1,10 @@
-@charset "UTF-8";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  text-decoration: none;
-}
-
-html {
-  font-size: 16px;
-  scroll-behavior: smooth;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-wrap: balance;
-}
-
-/*nem marad a bekezdés végén 1 szó magában ahogy változik az oldal szélessége*/
-p {
-  text-wrap: pretty;
-}
-
-p, li {
-  max-width: 70ch;
-}
-
 #nav-checkbox {
   display: none;
 }
 
 header {
   width: 100vw;
-  height: 10vh;
+  height: 50vh;
   border: 2px solid rgb(67, 88, 67);
 }
 header nav label {

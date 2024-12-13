@@ -1,29 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-}
-
-html {
-    font-size: 16px;
-}
-
-$fontcolor-white: rgb(255,255,255);
-$fontcolor-green: rgb(53,111,83);
-$fontcolor-lightgrey: rgb(77,77,77);
-$fontcolor-darkgrey: rgb(51,51,51);
-$fontcolor-red: rgb(205,18,45);
-
-$backgroundcolor-frontplexi: rgb(212,212,212);
-$backgroundcolor-textbox-vanilia: rgb(247,247,247);
-$backgroundcolor-textbox-lightgreen: rgb(234,248,228);
-
-$btncolor-green: rgb(112,168,78);
-
-body {
-    background-color: $backgroundcolor-textbox-vanilia;
-}
-
+@import "config";
+@import "mixins";
+@import "header";
 
